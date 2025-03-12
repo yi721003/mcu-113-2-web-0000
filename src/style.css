@@ -5,6 +5,7 @@ body {
 
 h3 {
   text-align: center;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 section.body {
@@ -14,6 +15,19 @@ section.body {
 
 nav {
   margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul > li {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 8px;
+  width: 80px;
+  text-align: center;
 }
 
 .card {
@@ -31,6 +45,11 @@ table {
   border-collapse: collapse;
   width: 100%;
   margin: 10px 0px;
+}
+
+table th {
+  background-color: #777;
+  color: white;
 }
 
 th,
